@@ -1,2 +1,19 @@
-# IntegrationGooglePeople
-Mostrar como integrar e integagir com a api do google contacts
+# Integração com Google People
+
+<h6> - Mostrar como integrar e interagir com a lib de integração do google people.</h6> 
+
+<P> Para usar as apis do google você precisa entrar no console do google e criar uma conta de dev </p>
+<p>nesse link: https://console.developers.google.com/apis/dashboard </p>
+<p> Apos criar as credenciais você pode setar nas constantes da classe o client-id e o client-secrets</p>
+<p> E no escopo ja vai estar definido todas as credencias para permitir o acesso. </p>
+<strong>---------------------------------------------------------------------------------------------------------</strong>
+<p>Agora basta instanciar a classe e gerar a url da tela de consentimento.</p>
+<h6>Expemplo:</h6> 
+<p>
+    $people = new GooglePeoPleIntegration(); <br>
+    $people->generateUrlConsentScreen(); 
+</p>
+<small>---------------------------------------------------------------------------------------------------------</small>
+<p> Esse link apos o usuario aceitar vai gerar um token  </p>
+<p>Apos o token ser gerado chame esse metodo. </p>
+<p>$people->salveToken($token);</p>
