@@ -1,6 +1,8 @@
 # Integração com Google People
 
-#<h6>Mostrar como integrar e interagir com a lib de integração do google people.</h6> 
+
+
+## Mostrar como integrar e interagir com a lib de integração do google people 
 
 <P> Para usar as apis do google você precisa entrar no console do google e criar uma conta de dev </p>
 <p>nesse link: https://console.developers.google.com/apis/dashboard </p>
