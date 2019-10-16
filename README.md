@@ -2,7 +2,7 @@
 _____________________________
 
 
-## Mostrar como integrar e interagir com a lib de integração do google people.
+## Mostrar como integrar e interagir com a lib do google people.
 
 Para usar as apis do google você precisa entrar no console do google e criar uma conta de dev  <br>
 ```
