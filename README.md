@@ -4,8 +4,10 @@
 
 ## Mostrar como integrar e interagir com a lib de integração do google people 
 
-Para usar as apis do google você precisa entrar no console do google e criar uma conta de dev 
-nesse link: https://console.developers.google.com/apis/dashboard 
+Para usar as apis do google você precisa entrar no console do google e criar uma conta de dev  <br>
+```
+until finished
+```
  Apos criar as credenciais você pode setar nas constantes da classe o client-id e o client-secrets
  E no escopo ja vai estar definido todas as credencias para permitir o acesso. 
 Agora basta instanciar a classe e gerar a url da tela de consentimento.
